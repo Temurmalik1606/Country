@@ -1,0 +1,20 @@
+.countries-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-top: 48px;
+}
+
+button{
+    margin: 50px auto;
+    display: flex;
+    width: 331px;
+    padding: 19px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #333B46;
+    color: white;
+    cursor: pointer;
+}

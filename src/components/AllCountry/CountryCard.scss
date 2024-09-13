@@ -1,0 +1,48 @@
+.card {
+    width: 264px;
+    height: 336px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    img {
+        width: 100%;
+        height: 160px;
+    }
+    .country-info {
+        padding: 24px 0 46px 26px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        h1 {
+            color: #FFF;
+            font-family: "Nunito Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 26px; /* 144.444% */
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            li {
+                list-style: none;
+                color: #FFF;
+                font-family: "Nunito Sans";
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 16px; /* 114.286% */
+                span {
+                    color: #FFF;
+                    font-family: "Nunito Sans";
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}
